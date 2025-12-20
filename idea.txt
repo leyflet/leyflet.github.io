@@ -25,3 +25,7 @@ Data scrapers
 - scrapers can be run in parallel
     - need to study `multiprocessing` library
     - once done can construct a composite table
+
+- all team name variants are held in json
+    - assumes case insensitive and dashes equal spaces
+    - for conversion should remove periods, parentheses, commas
